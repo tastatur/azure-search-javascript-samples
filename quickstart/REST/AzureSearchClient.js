@@ -18,13 +18,13 @@ class AzureSearchClient {
     
     static async request(url, method, apiKey, bodyJson = null) {
         // Uncomment the following for request details:
-        /*
+        
         console.log(`\n${method} ${url}`);
         console.log(`\nKey ${apiKey}`);
         if (bodyJson !== null) {
             console.log(`\ncontent: ${JSON.stringify(bodyJson, null, 4)}`);
         }
-        */
+        
 
         const headers = {
             'content-type' : 'application/json',
